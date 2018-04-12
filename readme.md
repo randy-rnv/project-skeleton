@@ -14,6 +14,8 @@
 => les fichiers .css sont à mettre dans "public/assets/css/"
 pour les inclure dans une page spécifique, mettre dans un attribut de type array du controlleur (Voir DefaultController)
 
+=>Par défaut, les "vues" vont être chercher dans "serc/views/contents". Gérez l'emplacement des vues dans "core/View.php"
+
 ### Paramètre de la fonction render() de la classe View :
  render("vue.php", [ [cssFile], [ ["clé"=>valeurParametreDeLaVue] ]])
 

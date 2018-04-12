@@ -11,6 +11,7 @@ class View
         //extraction des paramètres du tableau associatif
         extract($params); 
 
+        //////////// Gérer l'emplacement des vues ////////////////
         include BASE_PATH."/src/views/contents/".$view;
         return $content = ob_get_clean();
     }
