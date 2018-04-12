@@ -1,6 +1,6 @@
 <?php
 
-use rd\skeleton\core\Router as Router;
+use rd\skeleton\core\Router;
 use rd\skeleton\core\ControlChecker;
 
 define("BASE_PATH", dirname(__DIR__));
