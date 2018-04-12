@@ -21,7 +21,7 @@ class CssLink
 
             $htmlLink = "";
             foreach($linkTab as $link){
-                $htmlLink .= "<link rel='stylesheet' href='$link'/>\n";
+                $htmlLink .= "<link rel='stylesheet' href='$link'/>\n\t";
             }
         }else{
             $htmlLink = "";
