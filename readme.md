@@ -1,4 +1,4 @@
-# Structure de base pour un projet sans framework
+# Structure de base pour un projet
 # Suivant le design pattern MVC
 
 - inclus: cdn bootstrap 4, autoload de composer
