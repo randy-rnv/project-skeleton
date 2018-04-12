@@ -14,5 +14,6 @@
 => les fichiers .css sont à mettre dans "public/assets/css/"
 pour les inclure dans une page spécifique, mettre dans un attribut de type array du controlleur (Voir DefaultController)
 
-### Paramètre de la fonction render() de la classe View : render("vue.php", [ [cssFile], [ ["clé"=>valeurParametreDeLaVue] ]])
+### Paramètre de la fonction render() de la classe View :
+ render("vue.php", [ [cssFile], [ ["clé"=>valeurParametreDeLaVue] ]])
 
