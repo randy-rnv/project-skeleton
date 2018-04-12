@@ -8,8 +8,8 @@
 
 ## Quelques Syntaxes:
 
-<form action="/controlleur/action/"></form>
-<a href="/controlleur/action/?getParametres"></a>
+ - <form action="/controlleur/action/"></form>
+ - <a href="/controlleur/action/?getParametres"></a>
 
 => les fichiers .css sont à mettre dans "public/assets/css/"
 pour les inclure dans une page spécifique, mettre dans un attribut de type array du controlleur (Voir DefaultController)
