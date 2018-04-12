@@ -30,6 +30,3 @@ class CssLink
         return $htmlLink;
     }
 }
-
-//test
-//echo CssLink::generateCssLink(['libs/toi.php', 'libs/moi.php']);
