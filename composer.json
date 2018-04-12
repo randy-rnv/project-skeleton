@@ -1,0 +1,17 @@
+{
+    "name": "rd/skeleton",
+    "authors": [
+        {
+            "name": "moi",
+            "email": "randy.rnv@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "rd\\skeleton\\core\\": "core/",
+            "rd\\skeleton\\controllers\\": "src/controllers/",
+            "rd\\skeleton\\filesControl\\": "libs/filesControl/"
+        }
+    }
+}
